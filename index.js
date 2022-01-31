@@ -49,7 +49,7 @@ app.get("/data", (req, res) => {
 
 
 /* Listening to 8080  */
-app.listen(8080, () => {
+app.listen(PORT, () => {
     console.log("Server is running on port PORT");
 })
 
